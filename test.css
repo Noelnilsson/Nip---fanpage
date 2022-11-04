@@ -1,0 +1,30 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+
+h1{                                     /*Selected Element*/
+    font-size: 30px;                    /*Size for Element*/
+    color: #36E761;                   /*Color for Element*/
+}
+
+h2{
+    color:red;
+    font-size: 20px;
+}
+
+.big{                                   /*Class style*/
+    font-size: 45px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.big.uppercase{                         /*If the element has both classes*/
+    color:navy;
+}
+
+h1 span{                                /*Rule set for all span elements*/
+    color: violet;
+}
