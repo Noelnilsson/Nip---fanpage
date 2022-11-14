@@ -47,13 +47,13 @@ h2{
 
 /*MainList*/
 mainlist{
-    padding: 0px 0px 0px 0px;
-    text-align: left;
+    text-align: center;
 }
 
 /*Links*/
 a{
     color:green;
+    cursor: pointer;
 }
 a:hover{
     color: white;
