@@ -1,0 +1,91 @@
+  .subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 16px 10px 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    vertical-align: top;
+    transition: opacity 0.15s;
+  }
+
+  /*Hovering*/
+  .subscribe-button:hover{
+    opacity: 0.8;
+  }
+
+  /*After Clicking*/
+  .subscribe-button:active{
+    opacity: 0.5;
+  }
+
+  .join-button {
+    background-color: white;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(41, 118, 211);
+    padding: 9px 16px 9px 16px;
+    border-radius: 2px;
+    margin-right: 8px;
+    cursor: pointer;
+    vertical-align: top;
+    transition: background-color 0.15s, color 0.15s;
+  }
+
+  .join-button:hover{
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+
+  .join-button:active{
+    opacity: 0.7;
+  }
+
+  .tweet-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px;
+    border-radius: 18px;
+    font-weight: bold;
+    margin-right: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    vertical-align: top;
+    transform: box-shadow 0.15s;
+  }
+
+  .tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .amazon-button{
+    color: black;
+    background-color: rgb(248, 193, 73);
+    border: none;
+    padding: 10px 16px 10px 16px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 8px;
+    border-radius: 8px;
+    vertical-align: top;
+    transition: background-color 0.15s, padding 0.15s;
+  }
+
+  .amazon-button:hover{
+    background-color: rgb(248, 181, 37);
+  }
+
+  .amazon-button:active{
+    padding: 13px 20.8px 13px 20.8px;
+  }
+
+  main{
+    text-align: center;
+    margin-top: 500px;
+    margin-left: 0px;
+  }
